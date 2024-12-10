@@ -1,5 +1,10 @@
 #include <stdio.h>
-/*using the puts method to output a sentence*/
+/**
+ * main - Entry point
+ * Description: Printing with puts
+ * Return: Always 0 (Success)
+
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
