@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-char m = 'A';
-char n = 'a';
+char n = 'A';
+char m = 'a';
 while (m <= 'Z' && m >= 'A')
 {
 putchar(m);
