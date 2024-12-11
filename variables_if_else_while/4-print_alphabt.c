@@ -8,14 +8,14 @@
 int main(void)
 {
 char m = 'a';
-while(m <= 'z')
+while (m <= 'z')
 {
-if( m != 'q' && m != 'e')
+if (m != 'q' && m != 'e')
 {
 putchar(m);
 }
 m++;
 }
 putchar('\n');
-return (0); 
+return (0);
 }
