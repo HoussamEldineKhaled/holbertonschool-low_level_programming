@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  *functions_nested_loops - first nested loop
 */
 
