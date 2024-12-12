@@ -1,10 +1,9 @@
 #include "main.h"
-
 /** 
  *functions_nested_loops - first nested loop
 */
 
-void print_alphabet_void(void)
+void print_alphabet_x10(void)
 {
   int n = 0;
   while (n < 10)
