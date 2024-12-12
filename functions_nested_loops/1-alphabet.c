@@ -1,12 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Description: 'print alphabet'
- *
- * Return: Always 0 (Success)
+ *print_alphabet - uses function to print
 */
-
 void print_alphabet(void)
 {
 char m = 'a';
