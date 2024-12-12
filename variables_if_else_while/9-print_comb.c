@@ -9,7 +9,8 @@ int m = 0;
 while (m <= 9)
 {
 putchar('0' + m);
-if(m != 9){
+if(m != 9)
+{
 putchar(',');
 putchar(' ');
 }
