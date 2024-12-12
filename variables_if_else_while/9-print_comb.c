@@ -5,18 +5,17 @@
 */
 int main(void)
 {
-char m = '0';
-while (m <= '9')
+int m = 0;
+while (m <= 9)
 {
-if(m != '9')
-{
-putchar(m);
+putchar('0' + m);
+if(m != 9){
 putchar(',');
 putchar(' ');
 }
 else
 {
-putchar(m);
+break;
 }
 m++;
 }
