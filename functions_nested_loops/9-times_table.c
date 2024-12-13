@@ -16,7 +16,8 @@ if (y != 0)
 {
 _putchar(',');
 _putchar(' ');
-if (z < 10){
+if (z < 10)
+{
 _putchar(' ');
 }
 }
