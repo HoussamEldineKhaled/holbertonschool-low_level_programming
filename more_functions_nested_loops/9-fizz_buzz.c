@@ -12,6 +12,7 @@ while (i < 101)
 if (i == 100)
 {
 printf("Buzz");
+break;
 }
 if (i % 3 == 0 && i % 5 == 0)
 {
