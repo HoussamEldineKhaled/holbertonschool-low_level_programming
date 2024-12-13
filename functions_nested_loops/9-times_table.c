@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
  * times_table - multiply
 */
-
 void times_table(void)
 {
 int x = 0;
@@ -18,13 +16,15 @@ if (y != 0)
 {
 _putchar(',');
 _putchar(' ');
-}
-if (z < 10 && y != 0)
-{
+if (z < 10){
 _putchar(' ');
+}
+}
+if (z < 10)
+{
 _putchar('0' + z);
 }
-else
+else if (z > 10)
 {
 _putchar('0' + (z / 10));
 _putchar('0' + (z % 10));
