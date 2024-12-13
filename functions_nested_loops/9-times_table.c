@@ -24,7 +24,7 @@ if (z < 10)
 {
 _putchar('0' + z);
 }
-else if (z > 10)
+else if (z >= 10)
 {
 _putchar('0' + (z / 10));
 _putchar('0' + (z % 10));
