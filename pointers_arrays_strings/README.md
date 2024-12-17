@@ -1,0 +1,1 @@
+we explore arrays, strings, and pointers in C.
