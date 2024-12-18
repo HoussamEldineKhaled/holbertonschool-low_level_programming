@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * put_half - half of str
+ * puts_half - half of str
  * @str: input str
 */
-
 void puts_half(char *str)
 {
 int len = 0, i;
@@ -17,7 +16,7 @@ i = (len - 1) / 2;
 }
 else
 {
-i = len / 2;
+i = (len + 1) / 2;
 }
 while (i < len)
 {
