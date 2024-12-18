@@ -16,7 +16,7 @@ i = (len - 1) / 2;
 }
 else
 {
-i = (len + 1) / 2;
+i = (len + 2) / 2;
 }
 while (i < len)
 {
