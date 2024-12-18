@@ -14,9 +14,9 @@ if (len % 2 != 0)
 {
 i = (len - 1) / 2;
 }
- else if (len % 2 == 0)
+else if (len % 2 == 0)
 {
-i = (len) / 2;
+i = (len) / 2 + 1;
 }
 while (i < len)
 {
