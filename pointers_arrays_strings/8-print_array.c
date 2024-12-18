@@ -11,8 +11,9 @@ int i = 0;
 if (n <= 0)
 {
 printf("\n");
-break;
 }
+else
+{
 while (i < n)
 {
 if (i == n - 1)
@@ -22,5 +23,6 @@ break;
 }
 printf("%d, ", a[i]);
 i++;
+}
 }
 }
