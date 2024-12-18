@@ -29,11 +29,10 @@ i++;
 }
 while (s[i] >= '0' && s[i] <= '9')
 {
-
-  if (result > (MAX - (s[i] - '0')) / 10 && sign == -1)
-    {
-      return (MIN);
-    }
+if (result > (MAX - (s[i] - '0')) / 10 && sign == -1)
+{
+return (MIN);
+}
 result = result * 10 + (s[i] - '0');
 i++;
 }
