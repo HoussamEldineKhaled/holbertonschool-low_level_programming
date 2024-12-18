@@ -16,5 +16,5 @@ dest++;
 src++;
 }
 *dest = '\0';
-return start;
+return (start);
 }
