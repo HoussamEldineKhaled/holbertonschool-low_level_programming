@@ -36,6 +36,6 @@ return (MIN);
 result = result * 10 + (s[i] - '0');
 i++;
 }
-result = result * sign;
+result = result *sign;
 return (result);
 }
