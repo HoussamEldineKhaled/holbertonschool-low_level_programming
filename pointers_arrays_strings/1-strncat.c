@@ -4,7 +4,7 @@
  * @dest: destination
  * @src: source
  * @n: number
- * Return: result 
+ * Return: result
 */
 
 char *_strncat(char *dest, char *src, int n)
