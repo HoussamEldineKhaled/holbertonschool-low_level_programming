@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - concatination with n
+ * _strncat - concatination with n
  * @dest: destination
  * @src: source
  * @n: number
