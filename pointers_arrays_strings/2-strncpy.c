@@ -17,6 +17,6 @@ i++;
 src++;
 dest++;
 }
-*dest = '\0';
+dest = '\0';
 return (tmp);
 }
