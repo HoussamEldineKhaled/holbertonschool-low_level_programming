@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * string_toupper - uppercase
+ * @n: input
+ * Return: result n
+*/
 char *string_toupper(char *n)
 {
 int i = 0;
