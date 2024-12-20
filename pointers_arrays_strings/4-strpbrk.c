@@ -21,7 +21,7 @@ if (accept[j] == s[i])
 return (s + i);
 }
 j++;
-}      
+}
 i++;
 }
 return (NULL);
