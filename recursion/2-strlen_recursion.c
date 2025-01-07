@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen_recusion - length recursive
+ * _strlen_recursion - length recursive
  * @s: input char
  * Return: either 0 or length
 */
