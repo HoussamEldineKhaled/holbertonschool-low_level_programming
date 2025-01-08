@@ -12,7 +12,7 @@ int j = 0;
 while (i < argc)
 {
 j = 0;
-while(argv[i][j] != '\0')
+while (argv[i][j] != '\0')
 {
 _putchar(argv[i][j]);
 j++;
