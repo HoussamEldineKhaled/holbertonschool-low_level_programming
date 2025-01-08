@@ -1,0 +1,13 @@
+#include "main.h"
+
+int main(int argc, char *argv[] __attribute__((unused)))
+{
+  int i = 0;
+  while (i < argc)
+    {
+      i++;
+    }
+  _putchar((argc - 1) + '0');
+  _putchar('\n');
+  return (0);
+}
