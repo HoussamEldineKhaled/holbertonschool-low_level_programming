@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * creat_array - array using malloc
+ * create_array - array using malloc
  * @size: array size
  * @c: character input
  * Return: array
