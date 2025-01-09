@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+bool isNumber(char nb[])
+{
+  
+  return (true);
+}
+
+int main(int argc, char *argv[])
+{
+int i = 0;
+int sum = 0;
+while (i < argc)
+{
+      if (!atoi(argv[i]))
+	{
+	  printf("Error\n");
+	  return (1);
+	}
+      sum += atoi(argv[i]);
+      i++;
+    }
+  printf("%d\n", sum);
+  return (0);
+}
