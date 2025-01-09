@@ -19,5 +19,5 @@ while (i < size)
 arr[i] = c;
 i++;
 }
-return (arr);  
+return (arr);
 }
