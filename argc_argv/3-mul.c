@@ -20,7 +20,6 @@ return (1);
 x = atoi(argv[1]);
 y = atoi(argv[2]);
 mult = x * y;
-_putchar(mult + '0');
-_putchar('\n');
+printf("%d\n", mult);
 return (0);
 }
