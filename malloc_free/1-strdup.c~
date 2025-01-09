@@ -1,0 +1,12 @@
+#include "main.h"
+
+
+char *strdup(unsigned int size, char c)
+{
+  int i = 0;
+  
+  if (size == 0)
+    {
+      return (NULL);
+    }
+}
