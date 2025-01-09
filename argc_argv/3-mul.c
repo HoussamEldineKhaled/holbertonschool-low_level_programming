@@ -19,7 +19,7 @@ return (1);
 }
 x = atoi(argv[1]);
 y = atoi(argv[2]);
-mult = x * y;
+mult = x *y;
 printf("%d\n", mult);
 return (0);
 }
