@@ -45,6 +45,6 @@ sum[i] = s2[j];
 j++;
 i++;
 }
-sum[i] = '\0'; 
+sum[i] = '\0';
 return (sum);
 }
