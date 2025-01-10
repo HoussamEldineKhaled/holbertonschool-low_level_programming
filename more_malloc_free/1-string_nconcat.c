@@ -46,10 +46,9 @@ i++;
 }
 while (j < n)
 {
-sum[i] = s2[j];
+sum[i + j] = s2[j];
 j++;
-i++;
 }
-sum[i] = '\0';
+sum[i + j] = '\0';
 return (sum);
 }
