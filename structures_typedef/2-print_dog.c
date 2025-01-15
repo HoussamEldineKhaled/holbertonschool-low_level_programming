@@ -12,7 +12,7 @@ if (d->name == NULL)
 {
 d->name = "(nil)";
 }
-else if (d->owner == NULL)
+if (d->owner == NULL)
 {
 d->owner = "(nil)";
 }
