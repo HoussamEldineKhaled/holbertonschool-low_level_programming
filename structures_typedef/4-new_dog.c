@@ -22,7 +22,7 @@ return (length);
 char *str_copy(char *str)
 {
 char *newstr;
-int i , length;
+int i, length;
 if (str == NULL)
 {
 return (NULL);
