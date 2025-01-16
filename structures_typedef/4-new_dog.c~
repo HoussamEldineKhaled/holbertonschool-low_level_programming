@@ -1,0 +1,30 @@
+#include "dog.h"
+#include <stdlib.h>
+
+int find_length(dog_t *dog)
+{
+  int length = 0;
+  while (dog[length] != NULL)
+    {
+      length++;
+    }
+  return (length);
+}
+
+dog_t *new_dog(char *name, float age, char *owner)
+{
+  dog_t *newdog;
+  char *new_name, *new_owner;
+
+  if (name == NULL)
+    {
+      new_name = "";
+    }
+  if (owner == NULL)
+    {
+      new_owner == "";
+    }
+
+  newdog = malloc(sizeof(dog_t));
+  return (newdog);
+}
