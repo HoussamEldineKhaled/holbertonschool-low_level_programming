@@ -15,10 +15,10 @@ va_start(args, n);
 i = 0;
 while (i < n)
 {
-printf("%d", va_args(args, int));
+printf("%d", va_arg(args, int));
 if (separator != NULL && i < n - 1)
 {
-printf("%s", seperator)
+  printf("%s", separator);
 }
 i++;
 }
