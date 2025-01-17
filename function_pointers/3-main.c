@@ -1,10 +1,16 @@
 #include "3-calc.h"
 #include <stdlib.h>
 
-int main (int argc, char *argv[])
+/**
+ * main - main method
+ * @argc: size of argv
+ * @argv: array inputs
+ * Return: 0
+*/
+int main(int argc, char *argv[])
 {
 int n, m, answer;
-int (*op)(int, int);  
+int (*op)(int, int);
 if (argc != 4)
 {
 printf("Error\n");
