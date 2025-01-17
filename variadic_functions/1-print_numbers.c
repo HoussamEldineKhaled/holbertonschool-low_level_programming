@@ -18,7 +18,7 @@ while (i < n)
 printf("%d", va_arg(args, int));
 if (separator != NULL && i < n - 1)
 {
-  printf("%s", separator);
+printf("%s", separator);
 }
 i++;
 }
