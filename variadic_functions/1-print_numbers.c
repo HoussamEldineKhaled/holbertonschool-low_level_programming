@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * print_numbers - printing numbers
- * @seperator: seperator
+ * @separator: seperator
  * @n: args size
 */
 
