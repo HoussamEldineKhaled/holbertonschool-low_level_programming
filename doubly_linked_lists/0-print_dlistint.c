@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stddef.h>
 /**
- * print_dllistint - print list
+ * print_dlistint - print list
  * @h: head of the list
  * Return: length
 */
