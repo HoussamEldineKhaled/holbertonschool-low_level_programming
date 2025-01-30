@@ -3,7 +3,10 @@
 #include <stddef.h>
 
 /**
- *
+ * add_dnodeint - add node to the list
+ * @head: head of list
+ * @n: number
+ * Return: newnode or null
 */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
@@ -20,7 +23,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
   newNode->n = n;
   newNode->next = *head;
   newNode->prev = NULL;
-  if (head != NULL)
+  if (*head != NULL)
     {
   (*head)->prev = newNode;
     }
