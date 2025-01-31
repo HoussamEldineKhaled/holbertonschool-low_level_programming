@@ -17,5 +17,5 @@ while (xor)
 count += xor & 1;
 xor >>= 1;
 }
-return (count)
+ return (count);
 }
