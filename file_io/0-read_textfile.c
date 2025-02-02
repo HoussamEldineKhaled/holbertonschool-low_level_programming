@@ -8,7 +8,7 @@
 /**
  * read_textfile - read a text file
  * @filename: name of input file
- * @letter: number of characters
+ * @letters: number of characters
  * Return: 0 or text
 */
 
