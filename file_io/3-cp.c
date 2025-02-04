@@ -3,8 +3,6 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <unistd.h>
-
-
 int main (int argc, char *argv[])
 {
   int file_to, file_from;
@@ -40,12 +38,21 @@ int main (int argc, char *argv[])
 	  exit(99);
 	}
     }
-
     if (byte_read < 0)
     {
       dprintf(STDERR_FILENO, "Error: can't read from file %s\n", argv[1]);
+      exit(98);
     }
-  close(file_to);
-  close(file_from);
+    
+    if (close(file_from) < 0)
+      {
+	dprintf(STDERR_FILENO, "Error: can't close fd %s\n", argv[1]);
+	exit(100);
+      }
+    if (close(file_to))
+      {
+	dprintf(STDERR_FILENO, "Error: can't close fd %s\n", argv[2]);
+        exit(100);
+      }
   return (0);
 }
