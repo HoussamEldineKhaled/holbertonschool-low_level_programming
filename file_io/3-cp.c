@@ -31,12 +31,13 @@ file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 if (file_to < 0)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+close(file_from);
 exit(99);
 }
 while ((byte_read = read(file_from, buffer, 1024)) > 0)
 {
 byte_written = write(file_to, buffer, byte_read);
-if (byte_written < 0)
+if (byte_written != byte_read)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 close(file_from);
