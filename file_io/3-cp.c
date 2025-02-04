@@ -26,7 +26,7 @@ int main (int argc, char *argv[])
 
   if (file_to < 0)
     {
-      dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+      dprintf(STDERR_FILENO, "Error: can't write to %s\n", argv[2]);
       exit(99);
     }
   while ((byte_read = read(file_from, buffer, 1024)) > 0)
@@ -34,7 +34,7 @@ int main (int argc, char *argv[])
       byte_written = write(file_to, buffer, byte_read);
       if (byte_written < 0)
 	{
-	  dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+	  dprintf(STDERR_FILENO, "Error: can't write to %s\n", argv[2]);
 	  exit(99);
 	}
     }
