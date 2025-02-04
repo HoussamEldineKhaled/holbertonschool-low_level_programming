@@ -31,15 +31,20 @@ int main (int argc, char *argv[])
       if (byte_written < 0)
 	{
 	  dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+	  close(file_from);
+	  close(file_to);
 	  exit(99);
 	}
     
-    if (byte_read < 0)
+    }
+      if (byte_read < 0)
     {
       dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+      close(file_from);
+      close(file_to);
       exit(98);
     }
-    }
+    
     if (close(file_from) < 0)
       {
 	dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", argv[1]);
