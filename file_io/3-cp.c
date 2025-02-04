@@ -43,7 +43,7 @@ dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 close(file_from);
 close(file_to);
 exit(99);
-}    
+}
 }
 if (byte_read < 0)
 {
